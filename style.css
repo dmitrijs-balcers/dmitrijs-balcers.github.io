@@ -37,7 +37,7 @@ header > .right {
   float: right;
 }
 
-ul {
+.no-bullets {
   list-style: none;
 }
 
@@ -58,6 +58,10 @@ h2 {
 }
 
 p {
+  font-size: 1.1rem;
+}
+
+span {
   font-size: 1.1rem;
 }
 
