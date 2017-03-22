@@ -122,6 +122,14 @@ span {
   h4 {
     font-size: 0.7rem;
   }
+
+  .employment-history--li--right {
+    max-width: 100%;
+  }
+
+  span {
+    font-size: 1rem;
+  }
 }
 
 /* =Smartphones (landscape)
