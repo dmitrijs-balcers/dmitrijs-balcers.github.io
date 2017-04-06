@@ -157,9 +157,9 @@ span {
   margin-top: 0;
 }
 
-/* =Smartphones (portrait and landscape)
+/* =Smartphones till iPads
 --------------------------------------------------------------------------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
   html {
     font-size: .5rem;
   }
@@ -181,6 +181,11 @@ span {
   }
 }
 
+/* =Smartphones (portrait and landscape)
+--------------------------------------------------------------------------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+}
+
 /* =Smartphones (landscape)
 --------------------------------------------------------------------------- */
 @media only screen and (min-width : 321px) {
@@ -194,9 +199,7 @@ span {
 /* =iPads (portrait and landscape)
 --------------------------------------------------------------------------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-  /*.employment-history--li--left {*/
-  /*min-width: 19%;*/
-  /*}*/
+
 }
 
 /* =iPads (landscape)
