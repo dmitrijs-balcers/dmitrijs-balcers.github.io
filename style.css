@@ -157,6 +157,20 @@ span {
   margin-top: 0;
 }
 
+.language {
+  display: inline-block;
+  margin-right: 1em;
+  line-height: 1;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.language > img {
+  height: 1em;
+  display: inline-block;
+  vertical-align: text-top;
+}
+
 /* =Smartphones till iPads
 --------------------------------------------------------------------------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
