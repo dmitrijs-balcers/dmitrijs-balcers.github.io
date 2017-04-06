@@ -161,7 +161,11 @@ span {
 --------------------------------------------------------------------------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   html {
-    font-size: 1.5rem;
+    font-size: .5rem;
+  }
+
+  body {
+    padding: 0;
   }
 
   h4 {
@@ -180,17 +184,11 @@ span {
 /* =Smartphones (landscape)
 --------------------------------------------------------------------------- */
 @media only screen and (min-width : 321px) {
-  h3 {
-    font-size: 1rem;
-  }
 }
 
 /* =Smartphones (portrait)
 --------------------------------------------------------------------------- */
 @media only screen and (max-width : 320px) {
-  h3 {
-    font-size: 1.6rem;
-  }
 }
 
 /* =iPads (portrait and landscape)
