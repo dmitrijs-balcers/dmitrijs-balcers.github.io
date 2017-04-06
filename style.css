@@ -47,6 +47,7 @@ header > .left > .self-scrolling {
   overflow: hidden;
   max-height: 6em;
   position: relative;
+  white-space: nowrap;
 }
 
 header > .left > .self-scrolling:hover > .self-scrolling--top {
