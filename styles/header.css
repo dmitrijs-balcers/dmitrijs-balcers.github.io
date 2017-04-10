@@ -1,0 +1,57 @@
+header > .left {
+  display: inline-block;
+}
+
+header > .left h1 {
+  margin-bottom: 0;
+}
+
+header > .left > h3 {
+  margin: 0.5rem;
+}
+
+header > .right {
+  display: inline-block;
+  float: right;
+}
+
+header > .left > .self-scrolling {
+  overflow: hidden;
+  max-height: 6em;
+  position: relative;
+  white-space: nowrap;
+}
+
+header > .left > .self-scrolling:hover > .self-scrolling--top {
+  top: 0;
+}
+
+header > .left > .self-scrolling:hover > .self-scrolling--bottom {
+  bottom: -150px;
+}
+
+header > .left > .self-scrolling > .self-scrolling--bottom {
+  position: relative;
+  bottom: 0;
+  -webkit-transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+  -moz-transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+  -o-transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+  transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+  -moz-transition-timing-function: cubic-bezier(0.455, 0.030, 0.515, 0.955);
+  -ms-transition-timing-function: cubic-bezier(0.455, 0.030, 0.515, 0.955);
+  -o-transition-timing-function: cubic-bezier(0.455, 0.030, 0.515, 0.955);
+  transition-timing-function: cubic-bezier(0.455, 0.030, 0.515, 0.955);
+}
+
+header > .left > .self-scrolling > .self-scrolling--top {
+  position: absolute;
+  top: 150px;
+  -webkit-transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+  -moz-transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+  -o-transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+  transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+  -moz-transition-timing-function: cubic-bezier(0.455, 0.030, 0.515, 0.955);
+  -ms-transition-timing-function: cubic-bezier(0.455, 0.030, 0.515, 0.955);
+  -o-transition-timing-function: cubic-bezier(0.455, 0.030, 0.515, 0.955);
+  transition-timing-function: cubic-bezier(0.455, 0.030, 0.515, 0.955);
+}
