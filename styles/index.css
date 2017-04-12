@@ -120,7 +120,7 @@
     text-align: center;
   }
   article {
-    max-width: 70%;
+    width: 70%;
     display: inline-block;
     text-align: left;
   }
@@ -130,7 +130,7 @@
 --------------------------------------------------------------------------- */
 @media only screen and (min-width : 1824px) {
   article {
-    max-width: 50%;
+    width: 50%;
   }
 }
 
