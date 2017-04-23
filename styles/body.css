@@ -68,3 +68,9 @@ p {
 span {
   font-size: 1.1rem;
 }
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+  color: black;
+}
