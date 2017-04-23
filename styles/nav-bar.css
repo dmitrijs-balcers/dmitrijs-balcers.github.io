@@ -11,3 +11,9 @@ ul.navigation > li.navigation--item {
   font-size: 1em;
   font-family: "Trebuchet MS", Trebuchet MS, sans-serif;
 }
+
+@media print {
+  nav {
+    display: none;
+  }
+}

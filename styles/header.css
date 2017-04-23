@@ -24,6 +24,10 @@ header > .right > .right--links > a > svg {
   vertical-align: middle;
 }
 
+header > .right > .right--links > a > span {
+  display: none;
+}
+
 header > .left > .self-scrolling {
   overflow: hidden;
   max-height: 6em;
@@ -63,4 +67,15 @@ header > .left > .self-scrolling > .self-scrolling--top {
   -ms-transition-timing-function: cubic-bezier(0.455, 0.030, 0.515, 0.955);
   -o-transition-timing-function: cubic-bezier(0.455, 0.030, 0.515, 0.955);
   transition-timing-function: cubic-bezier(0.455, 0.030, 0.515, 0.955);
+}
+
+@media print {
+  header > .right > .right--links > a > svg {
+    display: none;
+  }
+
+  header > .right > .right--links > a > span {
+    display: inline-block;
+    font-size: inherit;
+  }
 }
