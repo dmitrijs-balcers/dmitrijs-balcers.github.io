@@ -1,1 +1,0 @@
-You are welcome to check my page here: https://dmitrijs-balcers.github.com
