@@ -1,0 +1,19 @@
+svg.world {
+  height: 62.5%;
+  margin: 1.75rem 0 0;
+  width: 100%;
+}
+
+svg.world path {
+  fill: #E0E3E6;
+  stroke: #F9FCFF;
+  stroke-width: 0.25;
+}
+
+svg.world path:hover {
+  fill: #99A6B3;
+}
+
+#LV, #EE, #FR, #SE, #DE, #CH, #AT, #LT, #GB, #BE, #HU, #UA, #PL, #NL, #TR, #RU, #CZ {
+  fill: #1976D2;
+}

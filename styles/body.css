@@ -1,0 +1,76 @@
+* {
+  text-rendering: optimizeLegibility!important;
+  -webkit-font-smoothing: antialiased!important;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+body {
+  font-family: "Georgia", serif;
+  background-color: #dfdfdf;
+}
+
+article {
+  -moz-box-shadow: 0 0 10px black;
+  -webkit-box-shadow: 0 0 10px black;
+  box-shadow: 0 0 10px black;
+  padding: 2rem;
+  background-color: white;
+  min-height: 100vh;
+}
+
+.blue {
+  color: #3d9de9;
+}
+
+.dark-blue {
+  color: #3c7db1;
+}
+
+.no-bullets {
+  list-style: none;
+}
+
+li > h3 {
+  display: inline-block;
+}
+
+li > p {
+  display: inline-block;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 2.4rem;
+}
+
+h2 {
+  font-weight: normal;
+  margin-bottom: .5rem;
+}
+
+h3 {
+  line-height: 1.2em;
+  font-size: 1em;
+  font-family: "Trebuchet MS", Trebuchet MS, sans-serif;
+}
+
+h4 {
+  line-height: 1em;
+  font-size: 0.8em;
+  font-family: "Trebuchet MS", Trebuchet MS, sans-serif;
+}
+
+p {
+  /*font-size: 1.1rem;*/
+  text-align: justify;
+}
+
+span {
+  font-size: 1.1rem;
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+  color: black;
+}
