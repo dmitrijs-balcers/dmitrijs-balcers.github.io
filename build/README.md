@@ -1,4 +1,7 @@
-You are welcome to check my page here: https://dmitrijs-balcers.github.com
+Main development branch: `develop`
 
-To push the build to github page use:
-`git subtree push --prefix build origin master` 
+To get build to the github page use `git subtree push --prefix build origin master`
+
+This will push the build directory to master.
+
+In case of any changes withing templates use `node app` to compile the templates.
